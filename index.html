@@ -1,31 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <title>Career Zone | University of Exeter</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SmartPath</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/v8media/global/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/v8media/global/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background-color: #003c2f;
+    }
+    .logo-banner {
+      width: 100%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      box-sizing: border-box;
+    }
+    .logo-banner img {
+      height: 60px;
+    }
+    .light-green-nav {
+      background-color: #00b386;
+      padding: 0.5rem 2rem;
+      display: flex;
+      justify-content: center;
+      color: white;
+    }
+    .light-green-nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1.2rem;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      max-width: 900px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+    .main-content {
+      flex: 3;
+      padding-right: 2rem;
+    }
+    .sidebar {
+      flex: 1;
+      background-color: white;
+      padding: 1rem;
+      color: #003c2f;
+      border-left: 2px solid #ccc;
+    }
+    .sidebar h3 {
+      margin-top: 0;
+      color: #003c2f;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar li {
+      margin: 0.5rem 0;
+    }
+    .sidebar a {
+      text-decoration: none;
+      color: #003c2f;
+    }
+    h1 {
+      color: #003c2f;
+    }
+    .breadcrumb {
+      list-style: none;
+      padding: 0;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .breadcrumb li {
+      display: inline;
+    }
+    .breadcrumb li + li::before {
+      content: "/ ";
+      padding: 0 0.5rem;
+    }
+    .hero {
+      background-color: #00b386;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      margin-bottom: 2rem;
+    }
+    .hero img {
+      height: 200px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to SmartPath</h1>
-    <p>Your journey to smarter decisions starts here.</p>
-  </header>
+  <div class="logo-banner">
+    <img src="20391.png" alt="University of Exeter logo">
+    <img src="Brand Logo.png" alt="SmartPath logo">
+  </div>
 
-  <main>
-    <section>
-      <h2>What We Do</h2>
-      <p>SmartPath helps you streamline choices, solve complex problems, and grow confidently.</p>
-    </section>
+  <div class="light-green-nav">
+    <a href="#">Home</a>
+    <a href="#">About us</a>
+    <a href="#">Events</a>
+    <a href="#">Employability Schemes</a>
+    <a href="#">Career Research and Planning</a>
+    <a href="#">Jobs and Work Placements</a>
+  </div>
 
-    <section>
-      <h2>Contact Us</h2>
-      <p>Email: contact@smartpath.com</p>
-    </section>
-  </main>
+  <div class="container">
+    <div class="main-content">
+      <ul class="breadcrumb">
+        <li>Career Zone</li>
+        <li>Employability Schemes</li>
+        <li>SmartPath</li>
+      </ul>
 
-  <footer>
-    <p>&copy; 2025 SmartPath. All rights reserved.</p>
-  </footer>
+      <h1>SmartPath</h1>
+      <div class="hero">
+        <div>
+          <h2>SMARTPATH</h2>
+          <p>Equipping students with the skills to thrive in an AI-driven world.</p>
+        </div>
+        <img src="https://www.exeter.ac.uk/v8media/global/images/aspiring-teachers.png" alt="AI Workshop image">
+      </div>
+
+      <p>The SmartPath programme is a two-year workshop designed to introduce students to artificial intelligence and guide them towards sector-specific applications of AI in their future careers.</p>
+
+      <h3>Year 1: Foundations in AI</h3>
+      <ul>
+        <li>Understanding what AI is and its evolution</li>
+        <li>Introduction to machine learning (ML) and its applications</li>
+        <li>Exploring large language models (LLMs) such as ChatGPT</li>
+        <li>Assessing the strengths and limitations of AI systems</li>
+        <li>Practicing effective prompting and tool usage</li>
+        <li>Examining ethics, bias, and AI regulations</li>
+        <li>Learning how AI is transforming industries</li>
+        <li>Developing personalized strategies for AI use</li>
+      </ul>
+
+      <h3>Year 2: Specialization</h3>
+      <p>Students select a focus area to explore the impact and integration of AI within their chosen field, including:</p>
+      <ul>
+        <li>Management & Consulting</li>
+        <li>Law</li>
+        <li>Business Studies</li>
+        <li>Data Analytics</li>
+        <li>Other emerging sectors</li>
+      </ul>
+
+      <p><strong>Available to all students – join the future now!</strong> Start building your AI fluency and apply your skills to real-world challenges.</p>
+    </div>
+
+    <div class="sidebar">
+      <h3>More from Career Zone</h3>
+      <ul>
+        <li><a href="#">Ask An Alum</a></li>
+        <li><a href="#">Aspiring Teachers</a></li>
+        <li><a href="#">Career Development for Sustainability</a></li>
+        <li><a href="#">Career Mentor Scheme</a></li>
+        <li><a href="#">Create Your Future</a></li>
+        <li><a href="#">Gateway to Careers</a></li>
+        <li><a href="#">Get Ready to Graduate</a></li>
+        <li><a href="#">Global Employability</a></li>
+        <li><a href="#">Green Consultants</a></li>
+        <li><a href="#">Higher Education Achievement Report</a></li>
+        <li><a href="#">Professional Pathways</a></li>
+        <li><a href="#">The Exeter Award</a></li>
+        <li><a href="#">The Exeter Leaders Award</a></li>
+        <li><a href="#">Career Zone Podcast</a></li>
+        <li><a href="#">SmartPath</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
